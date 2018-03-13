@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lorem Conf</title>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli:600" rel="stylesheet">
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+</head>
+<body id="moar">
+<!--section 1-->
+
+<section class="sec1">
+	<div class="col-md-12 wow zoomIn div1">
+		<h1 class="hh1">Lorem Conf 2015</h1>
+		<h2 class="hh2">Sydeny-August 14-15</h2>
+		<a href="#a" class="a1"><button class="bb">Book your tickets now!</button></a>
+	</div>
+</section>
+
+<!--section 2-->
+
+<container class="sec2">
+	<div class="col-md-12 wow zoomIn">
+	<h2 class="hh3">Speakers</h2>
+	
+	<div class="col-md-3 wow zoomIn">
+		<img src="img/1.jpg" class="img-circle">
+		<p>John Smith</p>
+		<div class="div2">
+		<ul class="list-inline">
+		<li><a href="#twitter" class="a2"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+		<li><a href="#facebook" class="a2"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+		<li><a href="#github" class="a2"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+		</ul>
+		</div>	
+	</div>
+	<div class="col-md-3">
+		<img src="img/2.jpg" class="img-circle">
+		<p>Jane Bannete</p>
+		<div class="div2">
+		<ul class="list-inline">
+		<li><a href="#twitter" class="a2"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+		<li><a href="#facebook" class="a2"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+		<li><a href="#github" class="a2"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+		</ul>
+		</div>	
+	</div>
+	<div class="col-md-3">
+		<img src="img/3.jpg" class="img-circle">
+		<p>Sara Kornikova</p>
+		<div class="div2">
+		<ul class="list-inline">
+		<li><a href="#twitter" class="a2"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+		<li><a href="#facebook" class="a2"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+		<li><a href="#github" class="a2"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+		</ul>
+		</div>	
+	</div>
+	<div class="col-md-3">
+		<img src="img/4.jpg" class="img-circle">
+		<p>Maggie Smith</p>
+		<div class="div2">
+		<ul class="list-inline">
+		<li><a href="#twitter" class="a2"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+		<li><a href="#facebook" class="a2"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+		<li><a href="#github" class="a2"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+		</ul>
+		</div>	
+	</div>
+	<a href="#a" class="a1 a3"><button class="bb bb1">Book your tickets now!</button></a>	
+	</div>
+</container>
+
+</body>
+</html>
